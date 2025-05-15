@@ -1,0 +1,38 @@
+{
+  "name": "golang-react-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo de aprendizado com backend em Golang (API REST com autenticação JWT e PostgreSQL) e frontend em React com TypeScript.",
+  "author": "Sergio Bastos <seu-email@exemplo.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd backend && go run cmd/main.go",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "lint:frontend": "cd frontend && npm run lint",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": [
+    "golang",
+    "react",
+    "typescript",
+    "monorepo",
+    "jwt",
+    "postgres",
+    "api",
+    "backend",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiofisio/golang-react.git"
+  },
+  "homepage": "https://github.com/sergiofisio/golang-react#readme",
+  "bugs": {
+    "url": "https://github.com/sergiofisio/golang-react/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

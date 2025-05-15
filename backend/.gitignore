@@ -1,0 +1,15 @@
+# binários
+*.exe
+*.test
+*.out
+
+# Go modules
+go.work
+go.work.sum
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Ambiente
+.env
